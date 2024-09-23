@@ -1,0 +1,11 @@
+.Footer1,.footertext{
+     display: grid;   
+    gap: 4rem; 
+  
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+}
+
+.Footer1{
+    margin-top: 7rem;
+}
+

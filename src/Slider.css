@@ -116,30 +116,21 @@
 }
 
 
-.logo1{
-    margin-top: 8rem;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    
-}
 
 .logo12 img{
     height: 100%;
     width: 100%;
 }
-
-
-.logo-ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.logo12 img{
+     
+    max-width: 270px;
 }
+
+
 
 .toggle-button{
      position: absolute;
-    /* top: .8rem; */
+    
     right: 1rem;
  
     display: none;
@@ -254,3 +245,16 @@ svg text.text-body{
     margin-bottom: 3rem;
 }
 
+
+
+
+@media screen and (max-width: 391px) {
+        .Footer1 h1{
+            font-size:medium;
+             
+        }
+}
+
+.Label{
+    margin-top: 5rem;
+}

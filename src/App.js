@@ -4,6 +4,7 @@ import Body from './components/Body';
 import Header from './components/Header';
 import './Slider.css';
 import Loader from './components/Loader';
+import './Footer.css';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
