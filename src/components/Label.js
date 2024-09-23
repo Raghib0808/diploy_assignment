@@ -7,7 +7,7 @@ const Label = () => {
         Are you a large business looking for custom solutions?
         </div>
 
-        <button>Talk to sales</button>
+        <button className='lbutton'>Talk to sales</button>
       
     </div>
   )
