@@ -19,7 +19,8 @@ img {
 #main-header {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  
+  position: sticky;
+  top: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
