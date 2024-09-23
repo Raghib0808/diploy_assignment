@@ -13,3 +13,109 @@
     font-size: 15px;
     color: #485256;
 }
+
+
+
+.card-image{
+    position: relative;
+    /* height: 150px;
+    width: 150px; */
+    background: #fff;
+    padding: 3px;
+}
+
+.card-image .card-img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    border: 4px solid #4070f4;
+
+}
+
+.card{
+    /* width: 320px; */
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.slide-content{
+    margin: 0 40px;
+
+}
+
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0 ;
+  }
+  .slide-container{
+    max-width: 1550px;
+    width: 100%;
+    background-color: hsl(0, 41%, 97%);
+    padding: 14px;
+  }
+
+.name{
+
+    font-size: 18px;
+    font-weight: 500px;
+    color: #333;
+}
+
+.description{
+    font-size: 14px;
+    color: #707070;
+    text-align:center;
+}
+
+.Sbutton{
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: #29AB51;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #4070f4;
+    border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after
+{   content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: 0;
+    bottom: -40px;
+    background-color: #4070f4;
+}
+.overlay::after{
+    border-radius: 0px 25px 0px 0px;
+    background-color: #fff;
+
+}
+
+.Sbutton:hover{
+    background: #265df2;
+}
+
+.slideri{
+    
+    
+}

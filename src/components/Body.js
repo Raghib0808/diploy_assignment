@@ -6,6 +6,7 @@ import Slider_section1 from './Slider_section1'
 import Label from './Label'
 import List from './List'
 import SliderPrevSection from './SliderPrevSection'
+import Slider_r from './Slider_r'
 
 const Body = () => {
   return (
@@ -17,6 +18,7 @@ const Body = () => {
       <List/>
       <Label/>
       <SliderPrevSection/>
+      <Slider_r/>
     </div>
   )
 }
