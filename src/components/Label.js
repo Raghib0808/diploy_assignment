@@ -4,10 +4,12 @@ const Label = () => {
   return (
     <div className='Label'>
         <div className='Label1'>
-        Are you a large business looking for custom solutions?
+          <span>
+            Are you a large business looking for custom solutions?
+          </span>
         </div>
 
-        <button className='lbutton'>Talk to sales</button>
+        <button className='buttonw'>Talk to sales</button>
       
     </div>
   )

@@ -1,0 +1,15 @@
+.sliderprev{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    align-items: center;
+}
+
+.slideinfo h1 {
+    width: 80%;
+}
+
+.slideinfo p{
+    font-size: 15px;
+    color: #485256;
+}
