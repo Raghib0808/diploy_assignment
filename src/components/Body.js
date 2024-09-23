@@ -8,7 +8,7 @@ import Label from './Label'
 const Body = () => {
   return (
     <div className='whole'>
-      {/* <Header/> */}
+      <Header/>
       <Hero_sec/>
       <Info/>
       <Slider_section1/>
