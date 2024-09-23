@@ -19,6 +19,7 @@ img {
 #main-header {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,6 +55,7 @@ nav ul a:hover {
 }
 
 .has-submenu {
+  
   position: relative;
   display: flex;
   gap: .5rem;
