@@ -9,7 +9,7 @@ const Label = () => {
           </span>
         </div>
 
-        <button className='buttonw'>Talk to sales</button>
+        <button className='bu'>Talk to sales</button>
       
     </div>
   )

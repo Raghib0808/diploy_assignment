@@ -115,7 +115,25 @@
     background: #265df2;
 }
 
-.slideri{
-    
+
+.logo1{
+    margin-top: 8rem;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
     
 }
+
+.logo12 img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.logo-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

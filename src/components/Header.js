@@ -28,8 +28,8 @@ const Header = () => {
 			</nav>
 
             <div className='header_button'>
-			<button>Loging</button>
-			<button>Sign Up</button>
+			<button className='buttonw'>Loging</button>
+			<button className='buttong'>Sign Up</button>
             </div>
 
 		</header>

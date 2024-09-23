@@ -7,6 +7,7 @@ import Label from './Label'
 import List from './List'
 import SliderPrevSection from './SliderPrevSection'
 import Slider_r from './Slider_r'
+import Logo from './Logo'
 
 const Body = () => {
   return (
@@ -19,6 +20,7 @@ const Body = () => {
       <Label/>
       <SliderPrevSection/>
       <Slider_r/>
+      <Logo/>
     </div>
   )
 }
