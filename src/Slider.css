@@ -248,11 +248,11 @@ svg text.text-body{
 
 
 
+.Footer1 h1{
+    font-size:large;
+     
+}
 @media screen and (max-width: 391px) {
-        .Footer1 h1{
-            font-size:medium;
-             
-        }
 }
 
 .Label{
