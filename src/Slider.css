@@ -137,3 +137,41 @@
     justify-content: center;
 }
 
+.toggle-button{
+     position: absolute;
+    /* top: .8rem; */
+    right: 1rem;
+ 
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 7px;
+}
+
+.toggle-button .bar{
+    height: 5px;
+    width: 40px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 1153px) {
+    .header_button{
+      display: none;
+    }
+    li{
+        font-size: large;
+    }
+  }
+  
+@media screen and (max-width: 760px) {
+   
+    .none{
+        display: none;
+    }
+    .toggle-button{
+        display: flex;
+    }
+  }
+  

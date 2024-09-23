@@ -7,7 +7,13 @@ const Header = () => {
         <div className='logo'>
             <img src="https://printify.com/pfh/media/logo-old-B5JY5YNQ.svg"/>
         </div>
-			<nav>
+		<a href='#' className='toggle-button'>
+			<span className='bar'></span>
+			<span className='bar'></span>
+			<span className='bar'></span>
+		</a>
+
+			<nav className='none'>
 				<ul>
 					<li class="has-submenu">
 						<a href="#">Services</a>
@@ -29,7 +35,7 @@ const Header = () => {
 
             <div className='header_button'>
 			<button className='buttonw'>Loging</button>
-			<button className='buttong'>Sign Up</button>
+			<button className='buttong'>Sign-up</button>
             </div>
 
 		</header>
